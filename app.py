@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Hello World from Docker + Jenkins + GitHub! and updated"
+    return "Hello Macha-Project Jenkins is working / sikro va da vera yadhuna project panla"
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
